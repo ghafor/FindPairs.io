@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyGame</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+ 
+ <!-- start of container -->
+<div class="close-btn" onclick="closeHover()"><span class="fa fa-close"  id="close-btn1"></span></div>
+ <div class="container">
+ 	<!-- title of the game -->
+ 	<div class="title">
+ 		<img src="img/title.png">
+ 	</div>
+ 	<!-- play ground starts -->
+ 	<div class="play-ground" id="play-ground">
+ 	
+ 	</div>
+
+ 	<!-- end of play ground -->
+ 	<div class="status">
+ 		<div class="score">Score
+ 			<p id="score">0</p>
+ 		</div>
+ 		<div class="level">level
+ 			<p id="level">0</p>
+ 		</div>
+ 		<div class="time">Time
+ 			<p id="time"></p>
+ 		</div>
+ 		<div class="about">About<br />Me</div>
+ 	</div>
+ </div>
+ <audio autoplay="autoplay" id="mySource">
+  <source  type="audio/mp3" src="">
+Your browser does not support the audio element.
+</audio>
+
+
+
+
+
+<script src = js/jquery-3.1.0.min.js></script>
+<script src = "js/main.js"></script>
+</body>
+</html>
